@@ -149,8 +149,8 @@ void Input_JoyEvent(SDL_Event* evt) {
 	switch(evt->jbutton.button)
 	{
 		case 0: jFaceDown = w; break;
-		case 1: jFaceLeft = w; break;
-		case 2: jFaceRight = w; break;
+		case 1: jFaceRight = w; break;
+		case 2: jFaceLeft = w; break;
 		case 3: jFaceUp = w; break;
 		case 4: jL = w; break;
 		case 5: jR = w; break;
